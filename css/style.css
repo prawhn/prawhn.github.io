@@ -453,6 +453,14 @@ footer {
 /* SERVICES
 /*******************************************/
 
+.services section + section {
+     margin-top: clamp(60px, 10vw, 120px);
+}
+
+.services section:last-child {
+     padding-bottom: clamp(60px, 10vw, 120px);
+}
+
 .services-grid-section {
      display: flex;
      justify-content: center;
